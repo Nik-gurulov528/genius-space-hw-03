@@ -29,3 +29,10 @@ else:
         print("Saturday")
     else:
         print("Sunday")
+
+# Цикли
+# Task 1
+sheet = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+userNumber = int(input("Your number please: "))
+for num in sheet:
+    print(f"{userNumber} * {num} = ", userNumber * num)
